@@ -47,3 +47,70 @@
 //     else
 //       return ('negativo')
 //   }
+
+// EJERCICIO  10: Avanzar semáforo
+// const avanzarSemaforo=(colorActual)=>{
+//     if (colorActual==='verde')
+//       return ('amarillo')
+//     else if (colorActual==='amarillo'){
+//        return ('rojo') 
+//     }
+//     else if (colorActual==='rojo'){
+//        return ('verde')
+//     }
+
+//   }
+
+// EJERCICIO 11: Obtener sensación
+// const obtenerSensacion=(temperatura)=>{
+//     if (temperatura<0)
+//       return (`¡Está helando!`)
+//     else if (temperatura>=0 && temperatura<15){
+//       return (`¡Hace frío!`)
+//     }
+//     else if (temperatura>=12 && temperatura<25){
+//        return (`Está lindo`)
+//     }
+//     else if (temperatura>=25 && temperatura<30){
+//       return (`Hace calor`)
+//     }
+//     else if (temperatura>=30){
+//       return (`¡Hace mucho calor!`)
+//     }
+//   }
+
+//EJERCICIO 12: Obtener nota
+// const obtenerNota=(puntaje)=>{
+//     if (puntaje<6)
+//       return `Desaprobado`
+//     else if (puntaje>=6 && puntaje<7) {
+//       return `Regular`
+//     }
+//     else if (puntaje>=7 && puntaje<8) {
+//       return `Bueno`
+//     }
+//     else if (puntaje>=8 && puntaje<10) {
+//       return `Muy bueno`
+//     }
+//     else if (puntaje===10) {
+//       return `Excelente`
+//     }
+//     else if (puntaje<0 || puntaje>10) {
+//       return `Puntaje inválido`
+//     }
+//   }
+
+// EJERCICIO 13: Piedra, papel o tijera
+// const jugarPiedraPapelTijera=(a,b)=>{
+//     if (a===`tijera` && b===`piedra` || b===`tijera` && a===`piedra`) 
+//       return (`¡Ganó piedra!`)
+//     else if (a===`papel` && b===`piedra` || b===`papel` && a===`piedra`) {
+//       return (`¡Ganó papel!`)
+//     }
+//     else if (a===`papel` && b===`tijera` || b===`papel` && a===`tijera`) {
+//       return (`¡Ganó tijera!`)
+//     }
+//     else if (a===b) {
+//       return (`¡Empate!`)
+//     }
+//   }
