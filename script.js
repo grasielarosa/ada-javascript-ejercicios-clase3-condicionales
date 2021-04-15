@@ -21,3 +21,29 @@
 //         let vocales = esVocal(letra);
 //         return !vocales
 //     }
+
+// EJERCICIO 6: ¿Puede renovar el carnet?
+// const puedeRenovarCarnet=(pasoTests,tieneMultasImpagas,pagoImpuestos)=>{
+//     return (pasoTests && !tieneMultasImpagas && pagoImpuestos);
+//   }
+
+// EJERCICIO 7: ¿Puede graduarse?
+// const puedeGraduarse=(asistencia,materiasAprobadas,tesisAprobada)=>{
+//     return(asistencia>=75 && materiasAprobadas>=50 && tesisAprobada);
+//   }
+
+// EJERCICIO 8: Par o impar
+//   const esParOImpar=(numero)=>{
+//     if (numero%2===0)
+//    return ('par')
+//  else
+//    return ('impar')
+
+// }
+// EJERCICIO 9: Positivo o negativo
+// const esPositivoONegativo = (numero)=>{
+//     if (numero>0)
+//       return ('positivo')
+//     else
+//       return ('negativo')
+//   }
